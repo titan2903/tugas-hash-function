@@ -427,6 +427,8 @@ Beberapa metode hashing diuji untuk setiap dataset, yaitu:
   * **Max Chain Length**: 4
   * **Alasan**: Metode Multiplikasi memberikan collision rate yang rendah dan mempertahankan max chain length yang terkontrol pada dataset dengan string alfanumerik.
 
+## Kesimpulan Akhir 
+
 **Mid-square Method** adalah yang terbaik untuk **Dataset 1** dan **Dataset 2** karena memiliki collision rate yang lebih rendah dan max chain length yang lebih kecil, terutama ketika menggunakan ukuran tabel yang lebih besar (503).
 
 **Multiplication Method** lebih cocok untuk **Dataset 3** dan **Dataset 4**, karena lebih efisien dalam mengurangi collision rate pada dataset yang lebih besar dan menjaga load factor tetap terkontrol.
